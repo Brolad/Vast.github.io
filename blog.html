@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Vast</title>
+    <link rel="shortcut icon" type="image/png" href="image/pngwing.com (1).png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <section class="blog-header">
+        <nav>
+            <a href="index.html"><img src="image/pngwing.com (1).png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="stations.html">STATIONS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1>VAST Visionaries Vault</h1>
+    </section>
+
+    <!-- blog page content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image/scott-graham-5fNmWej4tAA-unsplash.jpg">
+                <h2>VAST Visionaries Vault For 2024</h2>
+                <p>Explore the VAST Visionaries Vault, your exclusive gateway to visionary insights, cutting-edge innovations, and transformative stories shaping the future of technology. 
+                Join us on a journey of exploration and discovery as we unlock the secrets of tomorrow.</p>
+                <br>
+                <p>Welcome to the VAST Visionaries Vault, a captivating digital sanctuary where we curate an extensive collection of visionary insights, groundbreaking innovations, and transformative narratives that illuminate the path towards the future of technology. Immerse yourself in a rich tapestry of thought-provoking articles, in-depth analyses, and captivating interviews as we journey through the forefront of technological evolution. 
+                From exploring emerging trends to spotlighting industry pioneers, our vault serves as an invaluable resource, inspiring curiosity, sparking creativity, and fostering collaboration within the global tech community. 
+                Join us as we embark on an exhilarating odyssey of exploration, discovery, and enlightenment, charting the course towards a bold new era of technological advancement and human progress.</p>
+                <br>
+                <p>An expansive digital treasure trove where innovation, inspiration, and ingenuity converge to shape the future of technology. Delve into a captivating array of thought-provoking articles, insightful interviews, and immersive experiences that illuminate the cutting-edge advancements and visionary minds propelling us into tomorrow. 
+                From deep dives into emerging technologies to profiles of trailblazing leaders, our vault is a boundless source of knowledge, creativity, and possibility, inviting you to join us on an enriching journey of exploration, discovery, and transformation in the dynamic landscape of the digital age.</p>
+                <br>
+                <p>A digital haven where the brightest minds and boldest ideas come together to forge the future of technology. Within these virtual walls, we curate a boundless collection of visionary insights, 
+                groundbreaking innovations, and transformative narratives that illuminate the path towards tomorrow's digital landscape.</p>
+
+
+
+                    <div class="comment-box">
+                        <h3>Leave Your Comment</h3>
+
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn">POST</button>
+                        </form>
+                    </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Our Staff Count</h3>
+                <div>
+                    <span>Business Analytics </span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>Data Science </span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Machine Learning </span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Computer Science </span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>Software engineering </span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Cyber Security </span>
+                    <span>17</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>VAST Company stands at the forefront of innovation, where we foster a culture of collaboration and creativity. 
+        With pursuit of excellence, <br>we aim to shape the future of technology.</p>
+        <div class="icons">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-instagram' ></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-discord-alt' ></i>
+        </div>
+        <p>Made with <i class='bx bx-heart'></i> by Easy Tutorials, and <i class='bx bxs-cat'></i> Brolad</p>
+    </section>
+
+
+    <!-- JAVASCRIPT FOR TOGGLE MENU -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
